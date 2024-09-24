@@ -1,0 +1,32 @@
+name: inputs sample
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_string:
+        description: '文字列'
+        required: true
+        type: string
+      input_choice:
+        description: '選択肢'
+        required: true
+        default: foo
+        type: choice
+        options:
+          - hoge
+          - foo
+          - bar
+      input_boolean:
+        description: 'ブーリアン'
+        required: true
+        type: boolean
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print input value
+        run: |
+          echo string: ${{ inputs.input_string }}
+          echo choice: ${{ inputs.input_choice }}
+          echo boolean: ${{ inputs.input_boolean }}
