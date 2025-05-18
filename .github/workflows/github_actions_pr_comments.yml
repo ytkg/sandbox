@@ -1,0 +1,19 @@
+name: comments sample
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+    paths:
+      - config/menus.yaml
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: comment
+        run: gh pr comment ${{ github.event.pull_request.number }} -b "$(ruby script/diff.rb)" --repo ${{ github.repository }}
