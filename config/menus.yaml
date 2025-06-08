@@ -4,28 +4,34 @@ all:
   id: '10001'
   name: コメダブレンド
   description: 厳選した豆からじっくり丁寧に抽出したコメダ珈琲店伝統の味。濃厚なフレッシュと砂糖の両方を入れるのがオススメです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40055.jpg
 - &2
   id: '10002'
   name: アメリカン
   description: 軽くて飲みやすく、コーヒーの旨味を楽しめます。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40056.jpg
 - &3
   id: '10003'
   name: カフェオーレ
   description: やわらかでマイルドな味わい。コーヒーとミルクのこだわりブレンドです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40057.jpg
 - &4
   id: '10004'
   name: ミルクコーヒー
   description: ミルクがいっぱいで飲みやすくまろやかです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40058.jpg
 - &5
   id: '10005'
   name: ウインナーコーヒー
   description: とろけるホイップクリームとコーヒーの深いコクをお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40059.jpg
 - &6
   id: '10007'
   name: 蜂蜜オーレウインナー
   description: |-
     蜂蜜の優しい甘さ感じるカフェオーレに、とろけるホイップがよく合う一杯です。
     ※本商品には「はちみつ」を使用しているため、1歳未満の乳児には与えないでください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40061.jpg
 - &7
   id: '10008'
   name: コメ黒
@@ -33,74 +39,90 @@ all:
     コクのあるブラジル最上級グレードの豆をベースに華やかに香り高いキリマンジャロをブレンドしました。
     ※ストレートでお楽しみいただくためフレッシュはお付けしておりません。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40062.jpg
 - &8
   id: '10009'
   name: カフェインレスコーヒー
   description: |-
     良質なコロンビア産の豆を100%使用したコーヒーです。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40063.jpg
 - &9
   id: '10013'
   name: コメダブレンド たっぷりサイズ
   description: いつものコメダブレンドがたっぷり約1.5倍です！
+  photo_url: https://assets.komeda.co.jp/eos/menu/40065.jpg
 - &10
   id: '10014'
   name: アメリカン たっぷりサイズ
   description: アメリカンを約1.5倍のたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40066.jpg
 - &11
   id: '10015'
   name: カフェオーレ たっぷりサイズ
   description: カフェオーレを約1.5倍のたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40067.jpg
 - &12
   id: '10016'
   name: ミルクコーヒー たっぷりサイズ
   description: ミルクコーヒーを約1.5倍のたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40068.jpg
 - &13
   id: '10017'
   name: ホットミルク たっぷりサイズ
   description: ミルクを約1.5倍のたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40069.jpg
 - &14
   id: '10021'
   name: アイスコーヒー
   description: |-
     独特の味とコクを引きたてるために最初から甘味がついています。ぜひフレッシュも入れてお召し上がりください。
     ※甘味抜き・別添えが可能です。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40071.jpg
 - &15
   id: '10022'
   name: アイスオーレ
   description: 深いコクのコーヒーとミルクのハーモニーをお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40072.jpg
 - &16
   id: '10023'
   name: アイスミルクコーヒー
   description: コーヒーとミルクのやさしい味わいをアイスでもどうぞ。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40073.jpg
 - &17
   id: '10024'
   name: アイスウインナー
   description: アイスコーヒーに相性抜群のホイップをのせました。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40074.jpg
 - &18
   id: '10025'
   name: クリームコーヒー
   description: アイスコーヒーにソフトクリームの山がそびえ立ちます。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40075.jpg
 - &19
   id: '10026'
   name: クリームオーレ
   description: アイスオーレにソフトクリームの山がそびえ立ちます。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40076.jpg
 - &20
   id: '10027'
   name: 蜂蜜アイスコーヒー
   description: |-
     蜂蜜の香りと甘みがコーヒーの旨味をぐっと引きたてます。
     ※本商品には「はちみつ」を使用しているため、1歳未満の乳児には与えないでください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40077.jpg
 - &21
   id: '10028'
   name: ジェリコ 元祖
   description: コーヒージェリーとアイスコーヒーを組み合わせて、仕上げにホイップをのせたほろ苦い大人の飲むスイーツ。
+  photo_url: https://assets.komeda.co.jp/eos/menu/41015.jpg
 - &22
   id: '10029'
   name: カフェインレスアイスコーヒー
   description: |-
     良質なコロンビア産の豆を100%使用したアイスコーヒーです。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40562.jpg
 - &23
   id: '10033'
   name: プレミアムコーヒー Sophia
@@ -108,144 +130,176 @@ all:
     程よい苦味とやわらかな酸味雑味がなく、コクはありながらすっきりとした後味。
     ※ストレートでお楽しみいただくためフレッシュはお付けしておりません。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43261.jpg
 - &24
   id: '10034'
   name: アイスコーヒー たっぷりサイズ
   description: たっぷり約1.5倍！特製ジョッキでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40080.jpg
 - &25
   id: '10035'
   name: アイスオーレ たっぷりサイズ
   description: たっぷり約1.5倍！アイスオーレをたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40081.jpg
 - &26
   id: '10036'
   name: アイスミルクコーヒー たっぷりサイズ
   description: たっぷり約1.5倍！アイスミルクコーヒーをたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40082.jpg
 - &27
   id: '10037'
   name: アイスミルク たっぷりサイズ
   description: たっぷり約1.5倍！アイスミルクをたっぷりサイズでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40083.jpg
 - &28
   id: '10041'
   name: アイスコーヒー　でらたっぷりサイズ
   description: |-
     でらたっぷり約2倍！アイスコーヒーをでらたっぷりサイズでお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40819.jpg
 - &29
   id: '10042'
   name: アイスオーレ　でらたっぷりサイズ
   description: |-
     でらたっぷり約2倍！アイスオーレをでらたっぷりサイズでお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40821.jpg
 - &30
   id: '10043'
   name: アイスミルクコーヒー　でらたっぷりサイズ
   description: |-
     でらたっぷり約2倍！アイスミルクコーヒーをでらたっぷりサイズでお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40830.jpg
 - &31
   id: '10044'
   name: アイスミルク　でらたっぷりサイズ
   description: |-
     でらたっぷり約2倍！アイスミルクをでらたっぷりサイズでお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40831.jpg
 - &32
   id: '10048'
   name: 紅茶　レモン
   description: レモンティーでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/42597.jpg
 - &33
   id: '10049'
   name: 紅茶　ミルク
   description: ミルクティーでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/42598.jpg
 - &34
   id: '10050'
   name: 紅茶　ストレート
   description: スリランカ産茶葉使用。
+  photo_url: https://assets.komeda.co.jp/eos/menu/42599.jpg
 - &35
   id: '10051'
   name: お伊勢さんの和紅茶 「瑞」
   description: "三重県産の茶葉を使用した風味豊かな和紅茶です。ポットでお楽しみいただけます。  \n※この商品には紅茶の風味を引きたてるためにスリランカ産茶葉も使用しております。\n※ポットサービスはホットのみとなります。\n※紅茶本来の風味をお楽しみいただくため、ストレートのみでの提供となります。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/40088.jpg
 - &36
   id: '10052'
   name: アイスレモンティー
   description: レモンティーでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40089.jpg
 - &37
   id: '10053'
   name: アイスミルクティー
   description: ミルクティーでお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40835.jpg
 - &38
   id: '10054'
   name: アイスストレートティー
   description: アールグレイです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40090.jpg
 - &39
   id: '10056'
   name: お伊勢さんの和紅茶 「瑞」アイス
   description: "三重県産の茶葉を使用した風味豊かな和紅茶です。 \n※この商品には紅茶の風味を引きたてるためにスリランカ産茶葉も使用しております。\n※ポットサービスはホットのみとなります。\n※紅茶本来の風味をお楽しみいただくため、ストレートのみでの提供となります。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/40092.jpg
 - &40
   id: '10057'
   name: ホットミルク
   description: ほっと落ち着く、やさしい味わいです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40093.jpg
 - &41
   id: '10058'
   name: アイスミルク
   description: ほのかに甘く、お子様にもおすすめです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40094.jpg
 - &42
   id: '10059'
   name: コーンスープ
   description: じんわり温かくやさしい味わいです。お食事と一緒にどうぞ。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40095.jpg
 - &43
   id: '10060'
   name: ホットココア
   description: カカオが香るクリーミーなココアに、ホイップクリームを載せた贅沢な一杯です。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40096.jpg
 - &44
   id: '10061'
   name: アイスココア
   description: アイスココアの上にソフトクリームがそびえ立ちます。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40097.jpg
 - &45
   id: '10062'
   name: メロンソーダ
   description: |-
     メロンソーダを見た目も可愛いブーツグラスでどうぞ。
     ※メロンソーダにメロン果汁は含まれておりません。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40098.jpg
 - &46
   id: '10063'
   name: クリームソーダ
   description: |-
     懐かしのクリームソーダを見た目も可愛いブーツグラスでどうぞ。
     ※メロンソーダにメロン果汁は含まれておりません。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40099.jpg
 - &47
   id: '10064'
   name: コーラ
   description: どの年代にも人気の炭酸ドリンクです。レモンを添えた喫茶店風をお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40100.jpg
 - &48
   id: '10065'
   name: オレンジジュース
   description: 果汁100%(濃縮還元)のオレンジジュース。まんまるだるまグラスで気分もウキウキ！
+  photo_url: https://assets.komeda.co.jp/eos/menu/40101.jpg
 - &49
   id: '10066'
   name: ミックスジュース
   description: フルーツとミルクで美味しく仕上げました。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40102.jpg
 - &50
   id: '10067'
   name: サマージュース
   description: |-
     甘夏のつぶつぶ食感が楽しい特製ジュースです。
     ※甘夏果汁約30％使用。
+  photo_url: https://assets.komeda.co.jp/eos/menu/41193.jpg
 - &51
   id: '10069'
   name: 生レモンスカッシュ
   description: 新鮮なレモンをギュッとしぼった爽やかな味わいです。コロンと可愛いブーツグラスでどうぞ。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40105.jpg
 - &52
   id: '10070'
   name: コーヒーシェーク
   description: ソフトクリームがとろける、タル製グラスに入ったコーヒー風味の特製デザートドリンクです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40106.jpg
 - &53
   id: '10071'
   name: ストロベリーシェーク
   description: ソフトクリームがとろける、イチゴ風味のコメダ特製飲むデザートです。※ストロベリーシェークにいちご果汁は含まれておりません。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40107.jpg
 - &54
   id: '10074'
   name: バナナジュース
   description: バナナとミルクで美味しく仕上げました。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40110.jpg
 - &55
   id: '10092'
   name: メロンソーダ　たっぷりサイズ
@@ -253,12 +307,14 @@ all:
     たっぷり約1.5倍！メロンソーダをたっぷりサイズでお楽しみください。
     ※メロンソーダにメロン果汁は含まれておりません。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40986.jpg
 - &56
   id: '10093'
   name: コーラ　たっぷりサイズ
   description: |-
     たっぷり約1.5倍！コーラをたっぷりサイズでお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40839.jpg
 - &57
   id: '10095'
   name: メロンソーダ　でらたっぷりサイズ
@@ -266,12 +322,14 @@ all:
     でらたっぷり約2倍！メロンソーダをでらたっぷりサイズでお楽しみください。
     ※メロンソーダにメロン果汁は含まれておりません。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40827.jpg
 - &58
   id: '10096'
   name: コーラ　でらたっぷりサイズ
   description: |-
     でらたっぷり約2倍！コーラをでらたっぷりサイズでお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40828.jpg
 - &59
   id: '10098'
   name: クリームソーダ　でらたっぷりサイズ
@@ -279,348 +337,413 @@ all:
     でらたっぷり約2倍！クリームソーダをでらたっぷりサイズでお楽しみください。
     ※メロンソーダにメロン果汁は含まれておりません。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &64
+  photo_url: https://assets.komeda.co.jp/eos/menu/40829.jpg
+- &67
   id: '10102'
   name: ホットドッグ
   description: たっぷりコールスローとパリッとウインナーを特製ドッグパンで挟みました。
-- &65
+  photo_url: https://assets.komeda.co.jp/eos/menu/40122.jpg
+- &68
   id: '10106'
   name: フィッシュフライバーガー
   description: |-
     タルタルソースとチーズが絶妙にマッチ。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &66
+  photo_url: https://assets.komeda.co.jp/eos/menu/43183.jpg
+- &69
   id: '10107'
   name: 自慢のドミグラスバーガー
   description: |-
     コメダ特製のドミグラスソースを使用した肉厚パティのハンバーガーです。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &67
+  photo_url: https://assets.komeda.co.jp/eos/menu/43182.jpg
+- &70
   id: '10109'
   name: ハムサンド
   description: ロースハムの塩味とピリッときいたからしマヨネーズがアクセントです。
-- &68
+  photo_url: https://assets.komeda.co.jp/eos/menu/40128.jpg
+- &71
   id: '10110'
   name: エッグサンド
   description: 手作りたまごペーストがぎっしりと入った、大満足のサンドイッチです。
-- &69
+  photo_url: https://assets.komeda.co.jp/eos/menu/40129.jpg
+- &72
   id: '10111'
   name: ポテサラサンド
   description: そのままでもおいしいポテトサラダを野菜とともにサンドしました。
-- &70
+  photo_url: https://assets.komeda.co.jp/eos/menu/40130.jpg
+- &73
   id: '10112'
   name: ミックスサンド
   description: 自家製たまごペーストを使った一番人気のサンドイッチです。
-- &71
+  photo_url: https://assets.komeda.co.jp/eos/menu/40131.jpg
+- &74
   id: '10113'
   name: ハムトースト
   description: ハムサンドをトーストでもどうぞ。サクッとおいしい食感をお楽しみください。
-- &72
+  photo_url: https://assets.komeda.co.jp/eos/menu/40132.jpg
+- &75
   id: '10114'
   name: エッグトースト
   description: エッグサンドをトーストでもどうぞ。サクッとおいしい食感をお楽しみください。
-- &73
+  photo_url: https://assets.komeda.co.jp/eos/menu/40133.jpg
+- &76
   id: '10115'
   name: ポテサラトースト
   description: ポテサラサンドをトーストでもどうぞ。サクッとおいしい食感をお楽しみください。
-- &74
+  photo_url: https://assets.komeda.co.jp/eos/menu/40134.jpg
+- &77
   id: '10116'
   name: ミックストースト
   description: ミックスサンドをトーストでもどうぞ。サクッとおいしい食感をお楽しみください。
-- &75
+  photo_url: https://assets.komeda.co.jp/eos/menu/40135.jpg
+- &78
   id: '10117'
   name: あみ焼きチキンホットサンド
   description: 肉厚チキンとたっぷりキャベツに特製ソースをしみこませました。
-- &76
+  photo_url: https://assets.komeda.co.jp/eos/menu/40136.jpg
+- &79
   id: '10118'
   name: ミニコメバスケット
   description: |-
     人気のコメチキ2個とミニサンドを一度に味わえるお得なバスケット。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &77
+  photo_url: https://assets.komeda.co.jp/eos/menu/40137.jpg
+- &80
   id: '10119'
   name: ミニコメバスケット（トースト）
   description: |-
     人気のコメチキとミニサンドを一度に味わえるお得なバスケット。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &78
+  photo_url: https://assets.komeda.co.jp/eos/menu/40686.jpg
+- &81
   id: '10120'
   name: ミニサンド
   description: |-
     手軽さが魅力！ミックスサンドのミニサイズです。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &79
+  photo_url: https://assets.komeda.co.jp/eos/menu/40138.jpg
+- &82
   id: '10121'
   name: ミニサンド（トースト）
   description: |-
     手軽さが魅力な定番ミックストーストのミニサイズ。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &80
+  photo_url: https://assets.komeda.co.jp/eos/menu/42602.jpg
+- &83
   id: '10122'
   name: カツパン
   description: 揚げたてサクサクビッグカツとキャベツを豪快に挟みました。
-- &81
+  photo_url: https://assets.komeda.co.jp/eos/menu/40139.jpg
+- &84
   id: '10123'
   name: みそカツパン
   description: 揚げたてサクサクビッグカツを名古屋名物濃厚みそダレと合わせてサンドしました。
-- &82
+  photo_url: https://assets.komeda.co.jp/eos/menu/40140.jpg
+- &85
   id: '10124'
   name: エビカツパン
   description: プリップリのエビがぎっしり入った自慢のエビカツを、特製サウザンソースでどうぞ。
-- &83
+  photo_url: https://assets.komeda.co.jp/eos/menu/40141.jpg
+- &86
   id: '10125'
   name: カツカリーパン
   description: |-
     スパイシーな特製カリーソースと揚げたてサクサクビッグカツがクセになる美味しさです。
     ※やや辛めの商品です。辛い物が苦手な方やお子さまはご注意ください。
-- &84
+  photo_url: https://assets.komeda.co.jp/eos/menu/40142.jpg
+- &87
   id: '10127'
   name: カツサンド（沖縄限定）
   description: 揚げたてサクサクビッグカツとキャベツを豪快に挟みました。
-- &85
+  photo_url: https://assets.komeda.co.jp/eos/menu/40740.jpg
+- &88
   id: '10128'
   name: みそカツサンド（沖縄限定）
   description: 揚げたてサクサクビッグカツを名古屋名物濃厚みそダレと合わせてサンドしました。
-- &86
+  photo_url: https://assets.komeda.co.jp/eos/menu/40766.jpg
+- &89
   id: '10129'
   name: エビカツサンド（沖縄限定）
   description: プリップリのエビがぎっしり入った自慢のエビカツを、特製サウザンソースでどうぞ。
-- &87
+  photo_url: https://assets.komeda.co.jp/eos/menu/40636.jpg
+- &90
   id: '10130'
   name: カツカリーサンド（沖縄限定）
   description: |-
     スパイシーな特製カリーソースと揚げたてサクサクビッグカツがクセになる美味しさです。
     ※やや辛めの商品です。辛い物が苦手な方やお子さまはご注意ください。
-- &88
+  photo_url: https://assets.komeda.co.jp/eos/menu/40637.jpg
+- &91
   id: '10132'
   name: トースト
   description: 焼き立てのサクふわトーストをお楽しみください。
-- &89
+  photo_url: https://assets.komeda.co.jp/eos/menu/40143.jpg
+- &92
   id: '10133'
   name: 小倉トースト
   description: 名古屋の喫茶店めしといえばこちら。焼きたてトーストに小倉あんをのせた絶妙な組み合わせをお楽しみください。
-- &90
+  photo_url: https://assets.komeda.co.jp/eos/menu/40144.jpg
+- &93
   id: '10134'
   name: エビフライ
   description: |-
     カラッと揚がったプリプリエビ3尾とたっぷり野菜をお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &91
+  photo_url: https://assets.komeda.co.jp/eos/menu/40878.jpg
+- &94
   id: '10135'
   name: ヒレカツ
   description: |-
     柔らかヒレ肉をサクッと揚げたボリューム満点まんぷくメニューです。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &92
+  photo_url: https://assets.komeda.co.jp/eos/menu/40879.jpg
+- &95
   id: '10137'
   name: ジャーマン
   description: |-
     パリッとジューシーなウインナーとたっぷり野菜をお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &93
+  photo_url: https://assets.komeda.co.jp/eos/menu/40882.jpg
+- &96
   id: '10138'
   name: ヒレカツ　ミニサイズ
   description: |-
     柔らかヒレ肉をサクッと揚げました。小腹がすいたときにぴったりのミニサイズでどうぞ。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &94
+  photo_url: https://assets.komeda.co.jp/eos/menu/40880.jpg
+- &97
   id: '10155'
   name: たまとまレタスサンド　コメチキ2ケ付き（単品）
   description: |-
     お昼だけの特別メニューです。コメチキが2つ付いておなかも満足。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &95
+  photo_url: https://assets.komeda.co.jp/eos/menu/40154.jpg
+- &98
   id: '10159'
   name: ミックスサンド　コメチキ2ケ付き（単品）
   description: |-
     お昼だけの特別メニューです。自家製たまごペーストを使った一番人気メニューに、コメチキが2つ付いておなかも満足。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &96
+  photo_url: https://assets.komeda.co.jp/eos/menu/40156.jpg
+- &99
   id: '10161'
   name: ポテサラサンド　コメチキ2ケ付き（単品）
   description: |-
     お昼だけの特別メニューです。そのままでもおいしいポテトサラダを柔らかパンと野菜でさらにおいしく、コメチキが2つ付いておなかも満足。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &97
+  photo_url: https://assets.komeda.co.jp/eos/menu/40157.jpg
+- &100
   id: '10163'
   name: ハムサンド　コメチキ2ケ付き（単品）
   description: |-
     お昼だけの特別メニューです。ロースハムの塩味とピリッときいたからしマヨネーズがアクセント。さらに、コメチキが2つ付いておなかも満足。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &98
+  photo_url: https://assets.komeda.co.jp/eos/menu/40158.jpg
+- &101
   id: '10165'
   name: エッグサンド　コメチキ2ケ付き（単品）
   description: |-
     お昼だけの特別メニューです。手作りたまごペーストがぎっしりと入った、大満足のサンドイッチに、コメチキが2つ付いておなかも満足。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &99
+  photo_url: https://assets.komeda.co.jp/eos/menu/40159.jpg
+- &102
   id: '10171'
   name: "「名古屋名物」あんかけスパ（単品）"
   description: |-
     トロトロの旨辛あんかけがクセになる名古屋名物をどうぞ。
     ※やや辛めの商品です。辛い物が苦手な方やお子さまはご注意ください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &100
+  photo_url: https://assets.komeda.co.jp/eos/menu/40160.jpg
+- &103
   id: '10172'
   name: "「喫茶店の王道」ナポリタン（単品）"
   description: |-
     喫茶店のスパゲッティといえばこちら。定番の味をお楽しみください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &101
+  photo_url: https://assets.komeda.co.jp/eos/menu/40161.jpg
+- &104
   id: '10173'
   name: "「つぶつぶなめらか」めんたいクリーム（単品）"
   description: |-
     大人気のつぶつぶ明太子スパゲッティにクリームをあわせ、まろやかに仕上げました。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
     ※やや辛めの商品です。辛い物が苦手な方やお子様はご注意ください。
-- &102
+  photo_url: https://assets.komeda.co.jp/eos/menu/40162.jpg
+- &105
   id: '10174'
   name: "「コクと旨味の本格派」ミートソース（単品）"
   description: |-
     ビーフと野菜のうまみが特徴のミートソースは4種類のスパイスで仕上げたコメダ珈琲店オリジナルです。大人から子供まで楽しめる味わいのスパゲッティです。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &103
+  photo_url: https://assets.komeda.co.jp/eos/menu/40163.jpg
+- &106
   id: '10176'
   name: "「旨辛スパイシーカリー」インディアンスパゲッティ（単品）"
   description: |-
     11種類のスパイスで作り上げた特製カリーの虜に。
     ※やや辛めの商品です。辛い物が苦手な方やお子さまはご注意ください。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &104
+  photo_url: https://assets.komeda.co.jp/eos/menu/40164.jpg
+- &107
   id: '10177'
   name: サラダバゲット
   description: バゲットパンをガーリックトーストに変更可能です。ご注文時にお申しつけください。
-- &105
+  photo_url: https://assets.komeda.co.jp/eos/menu/40165.jpg
+- &108
   id: '10181'
   name: ミニサラダ
   description: |-
     ちょっと食べたい時のバランスサラダ。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &106
+  photo_url: https://assets.komeda.co.jp/eos/menu/40961.jpg
+- &109
   id: '10182'
   name: たっぷりたまごのピザトースト
   description: |-
     たっぷりのたまごペーストととろーりチーズが美味しいふわとろピザトーストです。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &107
+  photo_url: https://assets.komeda.co.jp/eos/menu/40170.jpg
+- &110
   id: '10183'
   name: コメダ特製ピザ
   description: |-
     モチモチ生地のオリジナルピザです。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &108
+  photo_url: https://assets.komeda.co.jp/eos/menu/40171.jpg
+- &111
   id: '10184'
   name: コメダグラタン
   description: |-
     ふりかけた海苔がアクセント。海老とマカロニのグラタンです。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &109
+  photo_url: https://assets.komeda.co.jp/eos/menu/40282.jpg
+- &112
   id: '10185'
   name: ビーフシチュー
   description: |-
     じっくり煮込んだごろごろビーフのシチューに、ポテトサラダとチーズを合わせるのがコメダ流。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &110
+  photo_url: https://assets.komeda.co.jp/eos/menu/40283.jpg
+- &113
   id: '10186'
   name: ポテトバスケット
   description: |-
     気軽に食べられる、ちょうどいいボリュームです。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
     ※ケチャップ付き
-- &111
+  photo_url: https://assets.komeda.co.jp/eos/menu/42335.jpg
+- &114
   id: '10187'
   name: ポテチキ（コメチキ3ケ)
   description: |-
     骨なしジューシーチキン「コメチキ」と揚げポテトが嬉しい一品です。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
     ※ケチャップ付き
-- &112
+  photo_url: https://assets.komeda.co.jp/eos/menu/42334.jpg
+- &115
   id: '10188'
   name: コメチキ(6ケ)
   description: フレッシュレモンをしぼって食べる骨なしジューシーチキン。
-- &125
+  photo_url: https://assets.komeda.co.jp/eos/menu/40176.jpg
+- &132
   id: '10213'
   name: シロノワール（単品）
   description: |-
     あつあつひえひえの温度差が楽しい、コメダの名物デザートです。
     ※シロノワールのシロップには「はちみつ」が含まれているため、1歳未満の乳児には与えないでください。
-- &126
+  photo_url: https://assets.komeda.co.jp/eos/menu/40186.jpg
+- &133
   id: '10216'
   name: ミニシロノワール（単品）
   description: |-
     あつあつひえひえの温度差が楽しい、コメダの名物デザートをミニサイズでどうぞ。おひとり様や、食後のデザートにおすすめです。
     ※ミニシロノワールのシロップには「はちみつ」が含まれているため、1歳未満の乳児には与えないでください。
-- &127
+  photo_url: https://assets.komeda.co.jp/eos/menu/40187.jpg
+- &134
   id: '10239'
   name: ソフトクリーム
   description: お皿にのったソフトクリームをスプーンで食べるのがコメダ流です。
-- &128
+  photo_url: https://assets.komeda.co.jp/eos/menu/40188.jpg
+- &135
   id: '10240'
   name: 珈琲ジェリー
   description: 自慢のコーヒーで作った自家製ジェリーにバナナとソフトクリームを添えました。ほろ苦い美味しさをどうぞ。
-- &129
+  photo_url: https://assets.komeda.co.jp/eos/menu/40189.jpg
+- &136
   id: '10241'
   name: クロネージュ（単品）
   description: |-
     ココア香るバウムクーヘンに冷たいソフトクリームが相性抜群です。
     ※クロネージュのシロップには「はちみつ」が含まれているため、1歳未満の乳児には与えないでください。
-- &113
+  photo_url: https://assets.komeda.co.jp/eos/menu/40190.jpg
+- &116
   id: '10332'
   name: カツサンド（持ち帰り限定）
   description: |-
     ずっしり、まんぷく、ボリューム満点カツサンド。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &114
+  photo_url: https://assets.komeda.co.jp/eos/menu/40218.jpg
+- &117
   id: '10333'
   name: みそカツサンド（持ち帰り限定）
   description: |-
     ずっしり、まんぷく、ボリューム満点みそカツサンド。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &115
+  photo_url: https://assets.komeda.co.jp/eos/menu/40758.jpg
+- &118
   id: '10334'
   name: エビカツサンド（持ち帰り限定）
   description: |-
     ずっしり、まんぷく、ボリューム満点エビカツサンド。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &116
+  photo_url: https://assets.komeda.co.jp/eos/menu/40219.jpg
+- &119
   id: '10335'
   name: カツカリーサンド（持ち帰り限定）
   description: |-
     ずっしり、まんぷく、ボリューム満点カツカリーサンド。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &117
+  photo_url: https://assets.komeda.co.jp/eos/menu/40759.jpg
+- &120
   id: '10342'
   name: 本場手羽先　5本入
   description: |-
     「世界のやまちゃん」監修の絶品手羽先。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &118
+  photo_url: https://assets.komeda.co.jp/eos/menu/40220.jpg
+- &121
   id: '10343'
   name: 本場手羽先　10本入
   description: |-
     「世界のやまちゃん」監修の絶品手羽先。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &119
+  photo_url: https://assets.komeda.co.jp/eos/menu/40221.jpg
+- &122
   id: '10384'
   name: ヒレカツ（沖縄限定）
   description: |-
     柔らかヒレ肉をサクッと揚げました。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
-- &120
+  photo_url: https://assets.komeda.co.jp/eos/menu/40881.jpg
+- &123
   id: '10385'
   name: ジャーマン（沖縄限定）
   description: |-
     パリッとジューシーなウインナーとたっぷり野菜。
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40883.jpg
 - &60
   id: '10386'
   name: アップルジュース
   description: りんごのおいしさをぎゅっと濃縮したさっぱりとした味わいです。
-- &121
+  photo_url: https://assets.komeda.co.jp/eos/menu/42601.jpg
+- &124
   id: '10387'
   name: 手作りたまごドッグ
   description: 自家製たまごペーストとシャキッとレタスのハーモニーをお楽しみください。
-- &122
+  photo_url: https://assets.komeda.co.jp/eos/menu/40770.jpg
+- &125
   id: '10453'
   name: 夜コメ　ハイ!チーズ!!プレート　チーズカリーグラタン（単品）
   description: |-
@@ -629,7 +752,8 @@ all:
     ※お召し上がりの際は、火傷にご注意ください。
     ※やや辛めの商品です。辛い物が苦手な方やお子さまはご注意ください。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &123
+  photo_url: https://assets.komeda.co.jp/eos/menu/40991.jpg
+- &126
   id: '10455'
   name: 夜コメ　ハイ!チーズ!!プレート　チーズハンバーグミートスパ（単品）
   description: |-
@@ -637,67 +761,183 @@ all:
     ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
     ※お召し上がりの際は、火傷にご注意ください。
     ※本商品に使用しているチーズは加熱処理済みです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/40993.jpg
+- &137
+  id: '10712'
+  name: チョコノワール ブラックサンダー（単品）
+  description: |-
+    ブラックサンダースプレッドを挟んだあたたかいデニッシュは、ソフトクリームと相性抜群。
+    ほろ苦いココアクッキーとプレーンビスケットで、まさにおいしさイナズマ級！圧倒的ザクザク感を存分にご賞味ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/41580.jpg
+- &138
+  id: '10713'
+  name: チョコノワール ブラックサンダー ミニサイズ（単品）
+  description: |-
+    ブラックサンダースプレッドを挟んだあたたかいデニッシュは、ソフトクリームと相性抜群。
+    ほろ苦いココアクッキーとプレーンビスケットで、まさにおいしさイナズマ級！圧倒的ザクザク感を存分にご賞味ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/41579.jpg
+- &127
+  id: '10818'
+  name: ペッパーポークとたまごの具沢山サンド
+  description: 黒胡椒の効いたペッパーポークとシャキシャキ食感のレタス、自家製たまごペーストが相性抜群のサンドイッチです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/41874.jpg
+- &128
+  id: '10819'
+  name: ペッパーポークとたまごの具沢山トースト
+  description: ペッパーポークとたまごの具沢山サンドをトーストでもどうぞ。サクッとおいしい食感をお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/41878.jpg
 - &61
+  id: '10851'
+  name: フラッペ　コーヒー
+  description: コーヒーをひんやり味わう、ほんのりビターなスッキリとした一杯。
+  photo_url: https://assets.komeda.co.jp/eos/menu/42011.jpg
+- &62
+  id: '10852'
+  name: フラッペ　クラシックプリン
+  description: 喫茶店のプリンをイメージしたクリーミーなご褒美の一杯。
+  photo_url: https://assets.komeda.co.jp/eos/menu/42012.jpg
+- &63
+  id: '10853'
+  name: フラッペ　ブルーベリーヨーグルト
+  description: 甘酸っぱいブルーベリーと爽やかなヨーグルトの味わいをひんやりと楽しめる一杯。
+  photo_url: https://assets.komeda.co.jp/eos/menu/42013.jpg
+- &64
   id: '10955'
   name: とろみコーヒー
   description: |-
     とろみがついている分、冷めにくいのでゆったりとくつろぎの時間をお楽しみいただけます。
     ※とろみコーヒーは店舗限定商品です。
-- &130
-  id: '11040'
-  name: 東京ばな奈 シロノワール（単品）
-  description: |-
-    まるで東京ばな奈、な味わいのひみつ　
-    シロノワールの中に隠された
-    バナナカスタード「見ぃつけたっ」※バナナ由来の変色した部分が含まれる場合がございます。
-- &131
-  id: '11041'
-  name: 東京ばな奈 シロノワール　ミニサイズ（単品）
-  description: |-
-    まるで東京ばな奈、な味わいのひみつ
-    ミニシロノワールの中に隠された
-    バナナカスタード「見ぃつけたっ」※バナナ由来の変色した部分が含まれる場合がございます。
-- &62
-  id: '11044'
-  name: 東京ばな奈 ジェリコ
-  description: |-
-    バナナカスタードの味わいに
-    ほろ苦ジェリーがかくれんぼ
-    珈琲ジェリー「見ぃつけたっ」※バナナ由来の変色した部分が含まれる場合がございます。
-- &63
-  id: '11045'
-  name: 東京ばな奈 オーレ
-  description: |-
-    やわらかな甘みでほっと一息
-    東京ばな奈を感じるまろやかドリンク
-    ホイップの下で「見ぃつけたっ」※バナナ由来の変色した部分が含まれる場合がございます。
-- &132
-  id: '11063'
-  name: 安納芋のモンブラン（単品）
-  description: ねっとりとした安納芋の甘みを存分に感じられる逸品。※本商品に使用しているチーズは加熱処理済みです。※原材料由来の夾雑物が含まれる場合がございます。
-- &133
-  id: '11069'
-  name: 魅惑のショコラケーキ（単品）
-  description: ほろ苦いショコラタルトに、まろやかショコラクリームを重ねた、大人の味わい。※魅惑のショコラケーキのチョコレート類のうち約80％は、カカオ72％チョコレートを使用しています。
-- &134
-  id: '11071'
-  name: ミルキーミルクレープ（単品）
-  description: ミルキーをイメージした特製クリームがなつかしさ感じる味わい。
-- &135
-  id: '11073'
-  name: 純栗ぃむ（単品）
-  description: コメダ珈琲店の定番が今年も登場。栗の香りが口いっぱいに広がる、この季節だけの特別。
-- &124
+  photo_url: https://assets.komeda.co.jp/eos/menu/42339.jpg
+- &129
   id: '11134'
   name: チーズカリートースト
   description: |-
     新宿中村屋監修のスパイシーなカリーソースとチーズの組み合わせがサクふわトーストとベストマッチ。
     ※やや辛めの商品です。辛い物が苦手な方やお子さまはご注意ください。
     ※本商品に使用しているチーズは加熱処理済みです。
-- &136
-  id: '11137'
-  name: 抹茶あずきケーキ（単品）
-  description: 静岡県産抹茶の風味豊かで程よい苦さとこし餡のやさしい甘さがふわりと広がる逸品。※本商品に使用しているチーズは加熱処理済みです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43159.jpg
+- &139
+  id: '11353'
+  name: チョコノワール ～Made with KITKAT®～（単品）
+  description: |-
+    あたたかいデニッシュの間に挟んだチョコスプレッドと、ソフトクリームが溶け合ったまろやかな味わい。
+    一口サイズの「キットカット」とフィアンティーヌでサクッサク食感をお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43720.jpg
+- &140
+  id: '11354'
+  name: チョコノワール ～Made with KITKAT®～ ミニサイズ（単品）
+  description: |-
+    あたたかいデニッシュの間に挟んだチョコスプレッドと、ソフトクリームが溶け合ったまろやかな味わい。
+    一口サイズの「キットカット」とフィアンティーヌでサクッサク食感をお楽しみください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43762.jpg
+- &141
+  id: '11358'
+  name: クッピーラムネ氷
+  description: "クッピーラムネに使用しているパウダーをかき氷に振りかけました。\nかき氷の中には、ラムネ味のゼリーを隠し、食べる楽しみを演出したかき氷です。\t\t\n※トッピングなしの価格です。\n※トッピングは、ソフトクリーム(120円)、練乳（80円）が可能です。\n※写真はトッピングなしです。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/43767.jpg
+- &142
+  id: '11359'
+  name: クッピーラムネ氷 ミニサイズ
+  description: |-
+    クッピーラムネに使用しているパウダーをかき氷に振りかけました。
+    かき氷の中には、ラムネ味のゼリーを隠し、食べる楽しみを演出したかき氷です。
+    ※トッピングなしの価格です。
+    ※トッピングは、ソフトクリーム(120円)、練乳（80円）が可能です。
+    ※写真はトッピングなしです。
+    ※店舗により販売状況が異なります。詳しくは店舗にご確認ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43771.jpg
+- &143
+  id: '11366'
+  name: いちご氷
+  description: "みんなに愛される定番のいちご氷。練乳、ソフトクリームのトッピングとぜひご一緒にどうぞ。\t\t\t\n※トッピングなしの価格です。\n※トッピングは、ソフトクリーム(120円)、練乳（80円）がおすすめです。\n※写真はトッピングなしです。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。\n※いちご果汁は含まれておりません。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/43850.jpg
+- &144
+  id: '11367'
+  name: いちご氷 ミニサイズ
+  description: "みんなに愛される定番のいちご氷。\t\t\t\n練乳、ソフトクリームのトッピングとぜひご一緒にどうぞ。\nミニサイズもおすすめ。\n※トッピングなしの価格です。\n※トッピングは、ソフトクリーム(120円)、練乳（80円）がおすすめです。\n※写真はトッピングなしです。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。\n※いちご果汁は含まれておりません。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/43853.jpg
+- &145
+  id: '11368'
+  name: 宇治抹茶氷
+  description: "風味豊かな宇治抹茶を100%使用したシロップ。\t\t\t\t\t\n抹茶の香りが口いっぱいに広がるすっきりとした味わい。\t\t\t\t\t\n※トッピングなしの価格です。\n※トッピングは、ソフトクリーム（120円）、コメダ特製小倉あん(120円)、練乳（80円）がおすすめです。\n※写真はトッピングなしです。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/43856.jpg
+- &146
+  id: '11369'
+  name: 宇治抹茶氷 ミニサイズ
+  description: "風味豊かな宇治抹茶を100%使用したシロップ。\t\t\t\t\t\n抹茶の香りが口いっぱいに広がるすっきりとした味わい。\t\nミニサイズもおすすめ。\n※トッピングなしの価格です。\n※トッピングは、ソフトクリーム（120円）、コメダ特製小倉あん(120円)、練乳（80円）がおすすめです。\n※写真はトッピングなしです。\n※店舗により販売状況が異なります。詳しくは店舗にご確認ください。"
+  photo_url: https://assets.komeda.co.jp/eos/menu/43859.jpg
+- &147
+  id: '11370'
+  name: 珈琲所のティラミス（単品）
+  description: 北海道産のマスカルポーネとクリームチーズのコクを、コーヒーシロップが染み込んだココアスポンジと一緒に楽しんで。※本商品に使用しているチーズは加熱処理済みです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43863.jpg
+- &148
+  id: '11372'
+  name: 満橘スフレ（単品）
+  description: オレンジなどの柑橘類が薫るホイップに、しっとりスフレでふわっとなめらか幸せ食感。※原材料由来の種や皮などが含まれる場合がございます。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43868.jpg
+- &149
+  id: '11373'
+  name: チャイ氷
+  description: |-
+    ミルクティーベースのかき氷です。
+    4種類のスパイスをミックスしたチャイシロップはミルクのコクともマッチした一品です。
+    ※トッピングなしの価格です。
+    ※トッピングは、ソフトクリーム(120円)がおすすめです。
+    ※写真はトッピングなしです。
+    ※販売は店舗により異なります。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43894.jpg
+- &150
+  id: '11375'
+  name: チャイ氷 ミニサイズ
+  description: |-
+    ミルクティーベースのかき氷です。
+    4種類のスパイスをミックスしたチャイシロップはミルクのコクともマッチした一品です。
+    ※トッピングなしの価格です。
+    ※トッピングは、ソフトクリーム(120円)がおすすめです。
+    ※写真はトッピングなしです。
+    ※販売は店舗により異なります。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43881.jpg
+- &151
+  id: '11376'
+  name: チーズデュオ（単品）
+  description: クリームとスフレ生地の２層のチーズケーキに爽やかな柚子がアクセント。※本商品に使用しているチーズは加熱処理済みです。※原材料由来の黒点や皮などが含まれる場合がございます。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43873.jpg
+- &152
+  id: '11378'
+  name: まるっとショコラ（単品）
+  description: 口溶けの良いショコラクリームと中に隠れた苺のソースがぴったり。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43875.jpg
+- &130
+  id: '11383'
+  name: タンドリーチキンホットサンド
+  description: |-
+    中はしっとり外は香ばしく７種の香辛料を効かせて焼き上げたタンドリーチキンがクセになる一品
+    ※やや辛めの商品です、辛い物が苦手な方やお子様は十分ご注意ください。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43932.jpg
+- &131
+  id: '11384'
+  name: チーズカリーとナン
+  description: |-
+    とろ〜りチーズと熱々カリーを手伸ばしナンに絡めてどうぞ
+    ※チーズカリーやナンをお召し上がりの際は火傷に十分ご注意ください。
+    ※やや辛めの商品です、辛い物が苦手な方やお子様は十分ご注意ください。
+    ※本商品に使用しているチーズは加熱処理済みです。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43939.jpg
+- &65
+  id: '11387'
+  name: ラッシー
+  description: |-
+    カリーと相性バツグン
+    ヨーグルト風味のドリンク
+  photo_url: https://assets.komeda.co.jp/eos/menu/43953.jpg
+- &66
+  id: '11388'
+  name: マンゴーラッシー
+  description: |-
+    ヨーグルトの爽やかな酸味にマンゴーのまろやかな甘み
+    ※果肉の繊維質や果皮の一部が含まれることがあります。
+  photo_url: https://assets.komeda.co.jp/eos/menu/43959.jpg
 drinks:
 - *1
 - *2
@@ -762,10 +1002,10 @@ drinks:
 - *61
 - *62
 - *63
-foods:
 - *64
 - *65
 - *66
+foods:
 - *67
 - *68
 - *69
@@ -824,7 +1064,6 @@ foods:
 - *122
 - *123
 - *124
-desserts:
 - *125
 - *126
 - *127
@@ -832,8 +1071,25 @@ desserts:
 - *129
 - *130
 - *131
+desserts:
 - *132
 - *133
 - *134
 - *135
 - *136
+- *137
+- *138
+- *139
+- *140
+- *141
+- *142
+- *143
+- *144
+- *145
+- *146
+- *147
+- *148
+- *149
+- *150
+- *151
+- *152
