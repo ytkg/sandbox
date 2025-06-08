@@ -1,0 +1,55 @@
+#name: comments sample
+#
+#on:
+#  pull_request:
+#    types:
+#      - opened
+#      - synchronize
+#    paths:
+#      - config/menus.yaml
+#
+#jobs:
+#  comment:
+#    runs-on: ubuntu-latest
+#    env:
+#      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#    steps:
+#      - uses: actions/checkout@v4
+#      - name: comment
+#        run: gh pr comment ${{ github.event.pull_request.number }} -b "$(ruby script/diff.rb)" --repo ${{ github.repository }}
+#
+name: Update menu data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update_menu_data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1
+          bundler-cache: true
+      - name: Update menu data
+        run: curl https://raw.githubusercontent.com/ytkg/komeda/59c769e22d970e7e66600472b0ea2d636b5c8234/config/menus.yaml > config/menus.yaml
+      - uses: peter-evans/create-pull-request@v7
+        id: create-pull-request
+        with:
+          commit-message: Update menu data
+          delete-branch: true
+          title: Update menu data
+      - name: Comments
+        if: ${{ steps.create-pull-request.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr comment ${{ steps.create-pull-request.outputs.pull-request-number }} -b "$(ruby script/diff.rb)" --repo ${{ github.repository }}
